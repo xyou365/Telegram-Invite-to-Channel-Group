@@ -33,7 +33,7 @@ c_info = {
 
 sour = 'three001'
 #sour = 'https://t.me/hao1234fuck'
-dest = 'three004'
+#dest = 'three004'
 dest = 'google_drive'
 
 clients = {}
