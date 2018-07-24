@@ -60,12 +60,11 @@ db = pickledb.load('clientbot_test.db', True)
  
 ind = 0
 if not db.get('start'):
-    db.set('start', id)
+    db.set('start', ind)
 else:
     ind = int(db.get('start'))
     print('Start from ', ind) 
 
-is_end = False
 while True:
         users = {}
         for key, value in all_participants.items():
@@ -73,10 +72,7 @@ while True:
 
         for key, value in users.items():
             if value == None: 
-                is_end = True
-                break
-        if is_end: break
-
+               sys.exit('All members (%d) done' % ind)
         rd_ind = random.sample(list(clients.keys()), len(clients))[0]
         print('>>>> client %s works' % rd_ind)
 
