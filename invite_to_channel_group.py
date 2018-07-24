@@ -25,10 +25,10 @@ import random
 
 #Need change those api to yours
 c_info = {
-'c0': ('cody_client1', 388159, 'b6337b1e003b7ea8780fd2d77f7e0478'),
-'c1': ('cody_client2', 494845, '281b820ed822c7435fa05313356272e6'),
-'c2': ('cody_client3', 315846, 'aa90e6ef11a4262e1aa90d88c1a219ee'),
-'c3': ('cody_client5', 341118, '8d73c0cb82820a200ed04d58be3dfd4f')
+'c0': ('cody_client1', 388159, 'b6337b1e003b7eax780fd2d77f7e0478'),
+'c1': ('cody_client2', 388159, 'b6337b1e003b7ea8780fd2d77f7e0478'),
+'c2': ('cody_client3', 388159, 'b6337b1e003b7ea8780fd2d77f7e0478'),
+'c3': ('cody_client5', 388159, 'b6337b1e003b7ea8780fd2d77f7e0478')
 }
 
 if c_info['c0'][1] == 388159:
