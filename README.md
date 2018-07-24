@@ -3,4 +3,4 @@ Invite more members into your Telegram (super) group using [Telethon API](https:
 
 The installation of Telethon please follow the official document. 
 
-If having any good idea, you can [join us](https://t.me/google_drive) or directly [contact me](https://t.me/CodyDoby).
+If you have any good idea or demand, [join us](https://t.me/google_drive) or directly [contact me](https://t.me/CodyDoby).
